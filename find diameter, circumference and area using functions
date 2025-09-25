@@ -25,4 +25,20 @@ int main() {
     printf("The area of circle is : %.2f\n", a);
     
     return 0;
+} 
+          OR
+
+int main() {
+    int radius;
+    float c,a;
+     
+    printf("Enter radius : ");
+    scanf("%d", &radius);
+
+    
+    printf("The diameter of circle is : %d\n",dia(radius));
+    printf("The circumference of circle is : %.2f\n",cir(radius));
+    printf("The area of circle is : %.2f\n", area(radius));
+    
+    return 0;
 }
