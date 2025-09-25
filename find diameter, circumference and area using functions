@@ -1,0 +1,28 @@
+#include <stdio.h>
+ int dia(int radius){
+     return (2 * radius); 
+ }
+ float cir(int radius){
+     return (2*3.13*radius);
+     }
+     float area(int radius){
+     return (radius*radius*3.14); 
+         
+     }
+int main() {
+    int d,radius;
+    float c,a;
+     
+    printf("Enter radius : ");
+    scanf("%d", &radius);
+    
+    d= dia(radius);
+    c = cir(radius);
+    a = area(radius);
+    
+    printf("The diameter of circle is : %d\n",d);
+    printf("The circumference of circle is : %.2f\n", c);
+    printf("The area of circle is : %.2f\n", a);
+    
+    return 0;
+}
